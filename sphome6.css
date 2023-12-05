@@ -1,0 +1,27 @@
+body{
+    display: block;
+    width: 560px;
+    font-family:'Roboto Slab', serif;
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid green;
+}
+.sp2 a:hover{color: rgb(228, 228, 19);}
+.sp3{
+    border: 0cap;
+    width: 560px;
+    height: 430px;
+    background-color:  rgb(194, 186, 186)
+    
+}
+.sp4{
+    border: 0cap;
+    width: 560px;
+    height: 430px;
+    background-color:  rgb(194, 186, 186)
+}
+    
+    
+

@@ -1,0 +1,40 @@
+.sp1{
+
+}
+.sp2{
+
+}
+.sp3{
+    border: 2px;
+}
+.sp4{
+    border: 1px solid black;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  margin-right: 120px;
+  margin-left: 10px;
+  max-width: 1000px;
+  background-color: rgb(186, 191, 192);
+    
+}
+.sp4.1{
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: lightblue;
+}
+
+.sp4.2{
+    background-color:#fff;
+       
+    }
+.sp5{
+    
+    
+}
+.sp6{
+    width: 1000px;
+    margin:30px;
+    background-color: blanchedalmond;
+    border: 10px;
+    padding: 3px;
+}
