@@ -1,0 +1,24 @@
+.sp1{
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    grid-template-columns: 20% 78%;
+    gap: 3px;
+    background-color: rgb(158, 230, 230);
+    padding: 2px;
+
+}
+.sp1.1{
+    
+}
+.sp1.2{
+        display: block;
+        background-color: azure;
+        text-align: center;
+        padding: 0px;
+        font-size: 72px;
+        
+    }
+        
+    
+
+}

@@ -1,0 +1,42 @@
+
+.container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 1140px;
+    border-radius: 15px;
+    background-color: palevioletred;
+}
+.body1 {
+    margin: 20px 0;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+}
+.body1 .col {
+    width: calc(32.33%);
+    margin-left: 50px;
+    display: flex;
+}
+.image{
+    width: 300px;
+    height: 200px;
+}
+.col{
+    width: 30%;
+    gap: 15%;
+   list-style: none;
+}
+.header{
+color: white;
+}
+@media (max-width:600px){
+    .col{
+        flex-direction: column;
+    }
+    .container.image{
+        width: 100%;
+    }
+
+}
+    
