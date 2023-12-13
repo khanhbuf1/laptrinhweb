@@ -1,3 +1,27 @@
 body{
     background-image: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2023/02/hinh-nen-may-tinh-4k-71.jpg);
 }
+.menu{
+    display: flex;
+    background-color: lightgrey;
+  width: auto;
+  border: 1px solid green;
+  padding: 50px;
+  margin: 20px;
+}
+.menu>div{
+    display: flex;
+    width: 23%;
+    gap: 15px;
+    text-align: center;
+}
+.box1{  
+    display: block;
+    background-color: aqua;
+    width: 50px;
+    float: left;
+    padding: 50px;
+}
+.menu>div{
+    
+}
