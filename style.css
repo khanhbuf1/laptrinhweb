@@ -9,10 +9,10 @@ body{
   padding: 50px;
   margin: 20px;
 }
-.menu>div{
+.menu div{
     display: flex;
     width: 23%;
-    gap: 15px;
+    gap: 1px;
     text-align: center;
 }
 .box1{  
@@ -21,7 +21,62 @@ body{
     width: 50px;
     float: left;
     padding: 50px;
-}
-.menu>div{
     
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    background-color: red;
+}
+.bt{
+    display: flex;
+    width: 50%;
+    text-align: left;
+    text-align: center;
+}
+.bt li{
+    display: block;
+    
+}
+.anh{
+    display: block;
+    margin-top: 25px;
+   background-color: beige;
+    width: 350px;
+    height: 550px;
+}
+.anh1 img{
+    width: 70%;
+    opacity: 90%;
+    
+}
+.anh1{
+    text-align: center;
+
+}
+.bao{
+    display: grid;
+    height: auto;
+}
+.cm1 p{
+    position: absolute;
+    color: red;
+    text-align: center;
+}
+.cm2{
+    text-align: center;
+}
+.banh{
+    display:flex;
+    width: auto;
+     height: 600px;
+    background-color: aquamarine;
+}
+.nenbanh{
+    display: flex;
+    width: 1110px;
+    height: 600px;
+    opacity: 100%;
 }
