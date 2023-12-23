@@ -1,0 +1,42 @@
+
+
+
+.sp1{
+    text-align: center;
+    background-color: white;
+}
+.sp1 h1{
+    font-size: 55px;
+    margin: 30px;
+}
+.sp1 p{
+    font-size: 20px;
+}
+.sp2{
+    display: flex;
+    width: 34%;
+    margin-left: 50px;
+}
+.anh{
+    background-color: rgb(247, 243, 243);
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    gap: 10px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px  solid rgb(217, 214, 214);
+}
+.cm1 h1{
+    font-size: 22px;
+}
+.cm1 a{
+    font-size: 15px;
+    text-decoration: none;
+    color: aqua;
+}
+.cm2{
+    font-size: 17px;
+    margin: 10px;
+    color: aqua;
+}

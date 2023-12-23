@@ -1,0 +1,93 @@
+
+ul{
+    /* position: fixed; */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(42, 41, 41);
+    width: 250px;
+    height: 100%;
+}
+li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 16px 16px;
+    opacity: 0.7;
+}
+.menu a:hover{
+    opacity: 1;
+}
+.bao{
+    height:1500px;
+    background-color: black;
+    display: block;
+}
+.balbum{
+    
+}
+.bo, .lop1, .lop2, .lop3{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+.bo{
+    position: relative;
+    overflow: hidden;
+}
+.bo .lop1{
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: 0,4;
+}
+.bo:hover .lop1{
+    transform: scale(1.2);
+}
+.bo .lop2{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    transform: 0,4;
+    background-color: black;
+}
+.bo:hover .lop2{
+    opacity: 0.4;
+    transform: scale(1.2);
+}
+.bo .lop3{
+    position: absolute;
+    top: ;
+    left: ;
+    color: white;
+    font-size: 30px;
+    opacity: 0;
+    transform: 0,4;
+}
+.bo:hover .lop3{
+    opacity: 1;
+}
+.bbo{
+    display: inline-block;
+    width: 200px;
+    height: 400px;
+    background-color: rgb(125, 59, 59);
+    padding: 5px;
+    border-radius: 5px;
+}
+.bbo p:hover{
+    color: aqua;
+}
+.bbo a:hover{
+    color: aqua;
+}
+.bbo a{
+    color: white;
+    text-decoration: none;
+}
+.album{
+    display: flex;
+}
+

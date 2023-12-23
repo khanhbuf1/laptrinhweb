@@ -1,43 +1,51 @@
 body{
     background-image: url(https://cdn.sforum.vn/sforum/wp-content/uploads/2023/02/hinh-nen-may-tinh-4k-71.jpg);
 }
-.menu{
+header {
     display: flex;
-    background-color: lightgrey;
-  width: auto;
-  border: 1px solid green;
-  padding: 50px;
-  margin: 20px;
-}
-.menu div{
-    display: flex;
-    width: 23%;
-    gap: 1px;
-    text-align: center;
-}
-.box1{  
-    display: block;
-    background-color: aqua;
-    width: 50px;
-    float: left;
-    padding: 50px;
-    
-}
-a{
+    background-color: rgb(101, 161, 210);
     text-decoration: none;
-    color: black;
 }
-a:hover{
+.menu {
+    display: flex;
+    padding: 0;
+   border: 1px;
+}
+.menu li{
+    display: flex;
+    padding: 50px;
+    font-size: 20px;
+}
+li a, .box1 {
+    display: block;
+    position: relative;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+.spbox1{
+    position: absolute;
+    display: none;
+}
+.spbox1 a{
+    display: block;
     background-color: red;
+}
+.box1:hover .spbox1{
+    display: block;
+}
+.spbox1 a:hover{
+    background-color: rgb(234, 140, 146);
 }
 .bt{
     display: flex;
-    width: 50%;
-    text-align: left;
     text-align: center;
+    background-color: rgb(119, 202, 215);
+   width: 50%;
 }
 .bt li{
-    display: block;
+    display: flex;
+    text-decoration: none;
     
 }
 .anh{
@@ -46,37 +54,98 @@ a:hover{
    background-color: beige;
     width: 350px;
     height: 550px;
+    border-radius: 25px;
 }
 .anh1 img{
     width: 70%;
-    opacity: 90%;
-    
+    opacity: 90%;  
 }
 .anh1{
     text-align: center;
-
 }
 .bao{
-    display: grid;
+    display: block;
     height: auto;
 }
+.cm1{
+    display: block;
+    padding: 30px;
+}
 .cm1 p{
-    position: absolute;
     color: red;
     text-align: center;
 }
+.block{
+    background-color:  rgb(101, 161, 210);
+    width: 10px;
+    height: 600px;
+    border-radius: 10px;
+}
 .cm2{
     text-align: center;
+    background-color: rgb(123, 220, 231);
+    padding: 5px;
+    border-radius: 15px;
 }
 .banh{
     display:flex;
     width: auto;
      height: 600px;
     background-color: aquamarine;
+    border-radius: 10px;
 }
 .nenbanh{
-    display: flex;
+   display:flex;
     width: 1110px;
-    height: 600px;
-    opacity: 100%;
+    height: 550px;
+}
+.bo.lop1.lop2{
+width: 200px;
+height: 200px;
+}
+.bo{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.bo.anh1{
+    top: 0;
+    left: 0;
+    position: absolute;
+    transform: 0,4;
+}
+.bo:hover .anh1{
+    transform: scale(1.2);
+}
+.bo.lop2{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    transform: 0,4;
+}
+.bo:hover .lop2{
+    transform: scale(1.2);
+    opacity: 0.4;
+}
+.bo .lop3{
+    position: absolute;
+    top: auto;
+    left: auto;
+    color: white;
+    font-size: 30px;
+    opacity: 0;
+    transform: 0,4;
+}
+.bo:hover .lop3{
+    opacity: 1;
+}
+.bt a:hover{
+background-color: aqua;
+}
+@media (max-width:600px){
+    .bao{
+        flex-direction: column;
+    }
 }
