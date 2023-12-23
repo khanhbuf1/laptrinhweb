@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    z-index: 100;
+    z-index: 100px;
     background-color: rgba(218, 172, 0, 0.7);
     
 }
@@ -376,6 +376,9 @@ h2{
     width: 100%;
     height: 790px;
 }
+.khanh{
+    margin-left: -130px;
+}
 .com2{
     display: flex;
     align-items: center;
@@ -403,6 +406,7 @@ h2{
 .sl2{
     width: 510px;
     height: 483px;
+    right: 25px;
     position: relative;
     cursor: pointer;
 }
