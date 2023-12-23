@@ -282,11 +282,11 @@ h2{
     margin: 10px;
     color: aqua;
 }
-.company-container-1{
+.comp1{
     width: 100%;
     height: 790px;
 }
-.company-container-content-1{
+.comp2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -337,7 +337,7 @@ h2{
     right: 760px;
     top: 2550px;
 }
-.khanh-dog-37:hover .icon-play{
+.k2:hover .icon-play{
     display: block;
     display: flex ;
     align-items: center ;
@@ -366,17 +366,17 @@ h2{
 .circle-2 i{
    font-size: 22px;
 }
-.khanh-dog-37:hover .icon-play-2{
+.k1:hover .icon-play-2{
     display: block;
     display: flex ;
     align-items: center ;
     justify-content: center ;
 }
-.company-container-1{
+.com1{
     width: 100%;
     height: 790px;
 }
-.company-container-content-1{
+.com2{
     display: flex;
     align-items: center;
     justify-content: center;
