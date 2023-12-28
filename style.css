@@ -41,7 +41,8 @@ li a, .box1 {
     display: flex;
     text-align: center;
     background-color: rgb(119, 202, 215);
-   width: 50%;
+   width: 1000px;
+   gap: 20px;
 }
 .bt li{
     display: flex;
