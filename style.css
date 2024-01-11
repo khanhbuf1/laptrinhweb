@@ -3,8 +3,9 @@ body{
 }
 header {
     display: flex;
-    background-color: rgb(101, 161, 210);
+    /* background-color: rgb(101, 161, 210); */
     text-decoration: none;
+    opacity: 85%;
 }
 .menu {
     display: flex;
@@ -37,6 +38,12 @@ li a, .box1 {
 .spbox1 a:hover{
     background-color: rgb(234, 140, 146);
 }
+.nk:hover{
+    width: 120px;
+    height: ;
+    background-color: rgb(82, 84, 84);
+    border-radius: 5px;
+}
 .bt{
     display: flex;
     text-align: center;
@@ -51,6 +58,7 @@ li a, .box1 {
 }
 .anh{
     display: block;
+    opacity: 0.9;
     margin-top: 25px;
    background-color: beige;
     width: 350px;
@@ -77,7 +85,7 @@ li a, .box1 {
     text-align: center;
 }
 .block{
-    background-color:  rgb(101, 161, 210);
+    background-color:  rgb(95, 94, 94);
     width: 10px;
     height: 600px;
     border-radius: 10px;
@@ -92,7 +100,7 @@ li a, .box1 {
     display:flex;
     width: auto;
      height: 600px;
-    background-color: aquamarine;
+    background-color: rgb(98, 228, 234);
     border-radius: 10px;
 }
 .nenbanh{
