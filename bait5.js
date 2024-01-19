@@ -3,7 +3,7 @@ var curimg=0;
 function Load_image(){
     for(i=2;i<6;i++){
         img[i]=new Image();
-        img[i].src="zing"+i+".jpg";
+        img[i].src="img/zing"+i+".jpg";
     }
 }
 function next(){
