@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài slide show</title>
+    <link rel="stylesheet" href="bait5.css">
+    <style>
+        .chua{
+            display: flex;
+            position: relative;
+        }
+        .ct1{
+            display: flex;
+            position: absolute;    
+            gap: 280px; 
+            padding-top: 10%;
+            font-size: 40px; 
+        }
+        .nut{
+            color: white;
+        }
+        
+    </style>
+</head>
+<body onload="Load_image();">
+    <div class="chua">
+        <img src="zing1.jpg" alt="anh1" id="zing">
+        <div class="ct1">
+            <div class="nut" id="back" onclick="back();">&#10094;</div>
+            <div class="nut" id="next" onclick="next();">&#10095;</div>
+        </div>
+    </div>
+    <script src="bait5.js"></script>
+    
+</body>
+</html>
