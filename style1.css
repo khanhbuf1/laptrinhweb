@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.hop1{
+    position: relative;
+    width: 100%;
+    height: 28px;
+    background-color: #2e2e2e;
+}
+.hop1-caption{
+    font-size: 12px;
+    line-height: 25px;
+    display: flex;
+    margin-left: 250px;
+    gap: 15px;
+    color: #aaa;
+}
+.hop2{
+    position: relative;
+    width: 100%;
+    height: 130px;
+    background-color: #222;
+}
+.hop2-img{
+    margin-top: 20px;
+    margin-left: 170px;
+    cursor: pointer;
+}
+.hop2-icon{
+    margin-top: -50px;
+    margin-left: 70px;
+    width: 20px;
+    height: 20px;
+  
+}
+.hop2-small{
+    width: 190px;
+    height: 27px;
+    border-radius: 15px;
+    padding: 6px 15px;
+    background-color: rgba(255,255,255,.2);
+    text-align: center;
+    font-size: 17px;
+    margin-left: 473px;
+    margin-top: -32px;
+    cursor: pointer;
+}
+.hop2-smallcaption{
+    margin-top: -3px;
+    color: white;
+}
+.hop2-small1{
+    width: 118px;
+    height: 27px;
+    border-radius: 15px;
+    padding: 6px 15px;
+    background-color: rgba(255,255,255,.2);
+    text-align: center;
+    font-size: 17px;
+    margin-left: 680px;
+    margin-top: -28px;
+    cursor: pointer;
+}
+.icon{
+    position: absolute;
+    color: white;
+    font-size: 21px;
+    margin-left: 1320px;
+    cursor: pointer;
+    margin-top: -20px;
+}
+.dongke{
+    margin-top: 16px;
+}
+.hop2-small1caption{
+    display: flex;
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    margin-left: 170px;
+    gap: 19px;
+    margin-top: 10px;
+}
+.header{
+    display: inline;
+}
+.header span{
+    color: #999999;
+}
+span:hover {
+    color: #555555;
+    cursor: pointer;
+}
+.ul{
+    color: #41455e;
+    font-size: 13px;
+}
+.ul li:hover {
+    color: #2e3192;
+    cursor: pointer;
+}
+.header span1{
+    color: red;
+}
+.header h2{
+    width: 692px;
+    height: 116px;
+}
+.container h3{
+    font-size: 17px;
+    line-height: 25px;
+    color: #222;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.container a{
+    text-decoration: underline;
+    color: #222;
+}
+.container p5{
+    font: 600 12px/14px Arial;
+    color: #888!important;
+    box-sizing: border-box;
+    background: #f2f2f2;
+    border-radius: 100px;
+    padding: 9px 11px;
+    display: block;
+    height: 30px;
+    width: 180px;
+    margin-left: 841px;
+}
+.container span3{
+    color: #222;
+}
+.body{
+    font-family: 'Times New Roman',Georgia,serif;
+}
